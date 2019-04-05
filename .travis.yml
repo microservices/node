@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "11"
+
+services:
+  - docker
+
+before_install:
+  - npm i omg
+
+script:
+  - npx omg build
+  - |
+    output="$(npx omg run --raw message -a name="Peter")"
+    if [ "$output" != '{"message":"Hello Peter"}' ] ; then echo "$output"; exit 1; fi
