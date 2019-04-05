@@ -1,0 +1,28 @@
+{
+  "name": "omg-node-template",
+  "version": "0.0.1",
+  "description": "Your awesome microservice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microservices/node.git"
+  },
+  "author": "Microservices",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/microservices/node/issues"
+  },
+  "homepage": "https://github.com/microservices/node#readme",
+  "keywords": [
+    "microservice",
+    "omg"
+  ],
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-json-body": "^5.3.0",
+    "koa-router": "^7.4.0"
+  }
+}
