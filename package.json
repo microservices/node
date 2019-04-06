@@ -4,7 +4,7 @@
   "description": "Your awesome microservice",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm run src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
