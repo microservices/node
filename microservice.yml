@@ -21,5 +21,8 @@ actions:
         required: true
         in: requestBody
     output:
-      type: any
       contentType: application/json
+      type: object
+      properties:
+        message:
+          type: string
