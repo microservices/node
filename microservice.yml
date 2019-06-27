@@ -9,6 +9,10 @@ info:
 lifecycle:
   startup:
     command: ["node", "/app/src/index.js"]
+health:
+  http:
+    path: /health
+    port: 8080
 actions:
   message:
     http:
