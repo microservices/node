@@ -1,8 +1,8 @@
 oms: 1
 info:
   version: 1.0.0
-  title: Your microservice
-  description: Describe your microservice
+  title: oms-nodejs
+  description: A Nodejs template for building Open Microservices.
   license:
     name: Apache 2.0
     url: https://opensource.org/licenses/Apache-2.0
